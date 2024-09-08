@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Weekly Product */
+
+@media (min-width: 768px) {
+  #weeklyproduct button.left-6 {
+    left: -22px;
+    top: 120px;
+  }
+  
+  #weeklyproduct button.right-6 {
+    right: -22px;
+    top: 120px;
+  }
+}
+
+.mino-dropdown .dropdown-content {
+  transform: translateX(-37.4vw)!important;
+}
+
+.mino-dropdown:hover > div:nth-child(1) {
+  color: #364F6B;
+}
+
+.mino-dropdown > div:nth-child(1) {
+padding-bottom: 4px;
+}
+
+/* Field Input */
+.field-input .label {
+  min-width: 120px;
+  text-align: right;
+  justify-content: flex-end;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
